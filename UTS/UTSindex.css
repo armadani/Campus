@@ -1,0 +1,84 @@
+
+body {
+    background-image: url(../img/doodles.png);
+}
+@font-face {
+    font-family: "Alex Brush";
+    src: url("../font/AlexBrush-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Sefia-Regular";
+    src: url("../font/Sofia-Regular.otf");
+}
+.header{
+    background-color: salmon;
+    height: 80px;
+    width: 1100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 20%;
+}
+.judul{
+    font-family: "Alex Brush";
+    font-size: 40px;
+    text-align: center;
+}
+.wellcome {
+    height: 40px;
+    width: 1100px;
+    background-color: darkgrey;
+}
+#isi {
+    background-color: gold;
+    height: 700px;
+    width: 1100px;
+}
+#footer {
+    height: 30px;
+    width: 1100px;
+    background-color: skyblue;
+    text-align: center;
+}
+.kiri {
+    height: 700px;
+    width: 140px;
+    background-color: gold;
+    float: left;
+}
+.tengah {
+    height: 700px;
+    width: 700px;
+    background-color: deepskyblue;
+    float: left;
+    padding: 10px;
+    font-family: "Sefia-Regular";
+}
+.tengah p {
+    color: white;
+    font-size: 15px;
+}
+.tengah img {
+    margin-top: 30px;
+}
+.kiri ul{
+    margin-top: 30px;
+    background-color: salmon;
+}
+.kiri a{
+    text-decoration: none;
+}
+.kiri a:hover{
+    color: white;
+}
+.atas {
+    margin-top: 20px;
+    background-color: salmon;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
