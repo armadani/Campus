@@ -1,0 +1,58 @@
+body {
+        
+    padding-top: 100px;
+}
+img {
+    margin-top: 15px;
+    margin-left: 45%;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    filter:drop-shadow( 0 5px 5px rgba(0,0,0,.7) );
+}
+img:hover {
+    transform: scale(1) rotate(360deg);
+    filter: drop-shadow(5px 5px 13px yellow);
+}
+h1 {
+    margin-top: 40px;
+    font-family: "Alex Brush",Arial, Helvetica, sans-serif;
+    font-size: 57px;
+    color: yellow;
+    filter: drop-shadow(5px 5px 3px black);
+}
+@font-face {
+    font-family: "Alex Brush";
+    src: url("../font/AlexBrush-Regular.ttf") format('truetype');
+}
+#boxup {
+    padding-top: 10px;
+    margin:auto;
+    width: 500px;
+    height: 115px;
+    background-color: rgb(221, 221, 221);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: inset 0px 0px 2px 2px yellow;
+}
+.jumbotron {
+    box-shadow: inset 0px 0px 2px 2px yellow;
+}
+#backbox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(70, 199, 70);
+    width: 10px;
+    height: 150%;
+    animation: backboxx 5s ease-in-out infinite alternate;
+}
+@keyframes backboxx {
+    0% {
+        height: 150%;
+    }
+    10% {
+        width: 100%;
+    }
+
+}
