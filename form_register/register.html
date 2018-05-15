@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Belajar Form</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <div id="backbox"></div>
+
+    <div class="container col-md-8">
+        <!-- <div class="jumbotron primary"> -->
+                
+            <div id="boxup">
+
+                <h1 style="text-align:center;">Formulir Pendaftaran</h1>
+            </div>
+
+            <div class="jumbotron">
+            <form>
+                <table class="table table-bordered table-striped">
+                    <tbody>
+                        <div class="form-group">
+                        <tr>
+                            <th>Nama :</th>
+                            <td><input type="text" placeholder="Masukkan nama" class="form-control col-md-8"></td>
+                        </tr>
+                        <tr>
+                            <th>password</th>
+                            <td><input type="password" class="form-control col-md-8" placeholder="Masukkan Password"></td>
+                        </tr>
+                        <tr>
+                            <th>Taggal Lahir</th>
+                            <td><input type="text" size="5" placeholder="tanggal"> / 
+                                <input type="text" size="5" placeholder="bulan"> / 
+                                <input type="text" size="5" placeholder="tahun"> (hh/bb/tttt) </td>
+                            <!-- <td><input type="text" class="form-control col-sm-2"> / 
+                                <input type="text" class="form-control col-sm-2"> / 
+                                <input type="text" class="form-control col-sm-2"> / 
+                                (hh/bb/tttt)
+                            </td> -->
+                        </tr>
+                        <tr>
+                            <th>Jenis Kelamin</th>
+                            <td><input type="radio" name="sex" checked>Pria
+                                <br><input type="radio" name="sex">Wanita</td>
+                                </tr>
+                        </tr>
+                        <tr>
+                            <th>Jurusan</th>
+                            <td><select class="custom-select col-md-8">
+                                    <option>--Pilih--</option>
+                                    <option>Teknik Komputer</option>
+                                    <option>Sistem Informasi</option>
+                                    <option>Manajemn Informatika</option>
+                                    <option>Sistem Komputer</option>
+                                </select></td>
+                            </tr>
+                        <tr>
+                            <th>Hoby</th>
+                            <td><div class="form-check form-check-inline">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label"> Football</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label"> Travelling</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label"> Blogging</label>
+                                </div><br>
+                                <div class="form-check form-check-inline">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label"> Music</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label"> Adventure</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label"> Lainnya</label>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <th>Alamat</th>
+                            <td><textarea class="form-check form-control col-md-8" cols="40" rows="5" placeholder="Masukkan alamat"></textarea></td>
+                        </tr>
+                                        
+                    </tbody>                
+                </table>
+                <button type="reset" class="btn btn-warning">Reset</button>
+                <button type="submit" class="btn btn-success">Kirim</button>
+            </form>
+        </div>
+        <!-- </div> jumbotron1-->
+
+    </div>
+    <img src="img/logo.png" alt="">
+    
+</body>
+<script src="../js/bootstrap.min.js"></script>
+</html>
